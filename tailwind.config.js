@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         'purple': {
           100: '#F3E8FF',
+          200: '#E9D5FF',
           600: '#9333EA',
           700: '#7E22CE',
         },
@@ -17,10 +18,17 @@ module.exports = {
           600: '#4F46E5',
           700: '#4338CA',
         },
+        'pink': {
+          500: '#EC4899',
+        }
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
+      animation: {
+        'bounce': 'bounce 3s infinite',
+        'pulse': 'pulse 3s infinite',
+      }
     },
   },
   plugins: [],
