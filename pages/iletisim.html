@@ -4,57 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İletişim - InstaBot Pro</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/babus.github.io/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <!-- Mevcut header kodu -->
+        <nav class="container">
+            <div class="logo">
+                <h1>InstaBot Pro</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/babus.github.io/index.html">Ana Sayfa</a></li>
+                <li><a href="/babus.github.io/pages/hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="/babus.github.io/pages/iletisim.html">İletişim</a></li>
+                <li><a href="/babus.github.io/pages/sss.html">SSS</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="contact-section">
-        <div class="container">
-            <h1>İletişim</h1>
-            <div class="contact-content">
-                <div class="contact-form">
-                    <h2>Bize Ulaşın</h2>
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Adınız</label>
-                            <input type="text" id="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">E-posta</label>
-                            <input type="email" id="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Mesajınız</label>
-                            <textarea id="message" required></textarea>
-                        </div>
-                        <button type="submit" class="primary-btn">Gönder</button>
-                    </form>
-                </div>
-                <div class="contact-info">
-                    <h2>İletişim Bilgileri</h2>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>info@instabotpro.com</p>
+    <div class="page-content container">
+        <h1 class="section-title">İletişim</h1>
+
+        <div class="contact-grid">
+            <div class="contact-info card">
+                <h2><i class="fas fa-location-dot"></i> Adres</h2>
+                <p>İstanbul, Türkiye</p>
+                
+                <h2><i class="fas fa-phone"></i> Telefon</h2>
+                <p>+90 555 123 4567</p>
+                
+                <h2><i class="fas fa-envelope"></i> E-posta</h2>
+                <p>info@instabotpro.com</p>
+                
+                <h2><i class="fas fa-clock"></i> Çalışma Saatleri</h2>
+                <p>Pazartesi - Cuma: 09:00 - 18:00</p>
+            </div>
+
+            <div class="contact-form card">
+                <h2>Bize Ulaşın</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Adınız</label>
+                        <input type="text" id="name" required>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <p>+90 555 123 4567</p>
+                    
+                    <div class="form-group">
+                        <label for="email">E-posta</label>
+                        <input type="email" id="email" required>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-location-dot"></i>
-                        <p>İstanbul, Türkiye</p>
+                    
+                    <div class="form-group">
+                        <label for="subject">Konu</label>
+                        <input type="text" id="subject" required>
                     </div>
-                </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mesajınız</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Gönder</button>
+                </form>
             </div>
         </div>
-    </section>
-
-    <footer>
-        <!-- Mevcut footer kodu -->
-    </footer>
+    </div>
 </body>
 </html>
